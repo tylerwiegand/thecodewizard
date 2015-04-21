@@ -79,7 +79,7 @@ a
 
 img
 {
-	align-content: space-between;
+	border-left: 15em;
 	max-width: 25%;
 	max-height: 25%;
 }

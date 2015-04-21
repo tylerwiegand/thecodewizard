@@ -7,10 +7,10 @@
 	</head>
 	<body>
 		<h1>My Plan for World Domination</h1>
-		<img src="../img/wizard.png" alt="wizard meme"/>
 		<h3>Purpose:</h3>
 		<ul>
 			<li>To produce and propagate <span class="codewizard">thecodewizard</span> brand</li>
+			<img src="../img/wizard.png" alt="wizard meme"/>
 		</ul>
 		<h3>Audience:</h3>
 		<ul>
