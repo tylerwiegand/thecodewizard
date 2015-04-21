@@ -8,18 +8,19 @@
 		<h1>My Plan for World Domination</h1>
 		<h3>Purpose:</h3>
 		<ul>
-				<li>To produce and propagate <span class="codewizard">thecodewizard</span> brand</li>
+			<li>To produce and propagate <span class="codewizard">thecodewizard</span> brand</li>
 		<h3>Audience:</h3>
+		</ul>
 		<ul>
 			<li>Potential Clients/Employers, Developers, Coding Apprentices</li>
 			<li>Developers</li>
 			<li>Code Wizard Apprentices</li>
 		</ul>
 		<h3>Goals:</h3>
-			<ul>
-				<li>Weave a personal web...site full of my skillz</li>
-				<li>Display to potential employers personal competency and drive</li>
-				<li>Springboard for ideas fleshed out online</li>
-			</ul>
+		<ul>
+			<li>Weave a personal web...site full of my skillz</li>
+			<li>Display to potential employers personal competency and drive</li>
+			<li>Springboard for ideas fleshed out online</li>
+		</ul>
 	</body>
 </html>
