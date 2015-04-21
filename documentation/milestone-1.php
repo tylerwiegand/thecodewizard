@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../css/codewizard.css">
 		<title>thecodewizard milestone 1</title>
 	</head>
 	<body>
 		<h1>My Plan for World Domination</h1>
+		<img src="../img/wizard.png" alt="wizard meme"/>
 		<h3>Purpose:</h3>
 		<ul>
 			<li>To produce and propagate <span class="codewizard">thecodewizard</span> brand</li>
@@ -22,6 +24,5 @@
 			<li>Display to potential employers personal competency and drive</li>
 			<li>Springboard for ideas fleshed out online</li>
 		</ul>
-		<img src="../img/wizard.png"
 	</body>
 </html>
