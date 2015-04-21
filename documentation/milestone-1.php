@@ -8,7 +8,7 @@
 		<h1>My Plan for World Domination</h1>
 		<h3>Purpose:</h3>
 		<ul>
-				<li>To produce and propagate <span="codewizard">thecodewizard</span></li>
+				<li>To produce and propagate <span class="codewizard">thecodewizard</span> brand</li>
 		<h3>Audience:</h3>
 		<ul>
 			<li>Potential Clients/Employers, Developers, Coding Apprentices</li>
