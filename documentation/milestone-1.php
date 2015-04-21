@@ -9,10 +9,10 @@
 		<h3>Purpose:</h3>
 		<ul>
 			<li>To produce and propagate <span class="codewizard">thecodewizard</span> brand</li>
-		<h3>Audience:</h3>
 		</ul>
+		<h3>Audience:</h3>
 		<ul>
-			<li>Potential Clients/Employers, Developers, Coding Apprentices</li>
+			<li>Potential Clients/Employers</li>
 			<li>Developers</li>
 			<li>Code Wizard Apprentices</li>
 		</ul>
@@ -22,5 +22,6 @@
 			<li>Display to potential employers personal competency and drive</li>
 			<li>Springboard for ideas fleshed out online</li>
 		</ul>
+		<img src="../img/wizard.png"
 	</body>
 </html>

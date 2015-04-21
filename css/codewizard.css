@@ -21,7 +21,7 @@ h1
 
 h3
 {
-	margin-left: .5em;
+	margin-left: 1em;
 	color: #99CCFF;
 	font-size: 2em;
 	font-variant: small-caps;
@@ -33,7 +33,7 @@ h3
 
 ul
 {
-	list-style-position: inside;
+	list-style-position: outside;
 	color: #6699FF;
 	font-size: 1em;
 	font-variant: initial;
@@ -76,3 +76,9 @@ a
 	text-decoration: none;
 }
 */
+
+img
+{
+	max-width: 75%;
+	max-height: 75%;
+}
