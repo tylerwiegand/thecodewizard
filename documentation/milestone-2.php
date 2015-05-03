@@ -3,11 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="../css/codewizard.css">
-		<title>thecodewizard milestone 1</title>
+		<title>thecodewizard milestone 2</title>
 	</head>
 	<body>
 		<h1>Wizard Mile(sword-in-the)stone Two</h1>
-		<img src="../img/wizard2.jpg" />
+		<img src="../img/wizard2.jpg" alt="Merlin!!!" class="wizard" />
 		<h2>Introduction</h2>
 		<p>
 			This page is to paint a metaphorical picture of what a super
@@ -22,7 +22,9 @@
 		</p>
 		<h2>Persona</h2>
 		<p>
-			Name: Ivanna Castalot<br />
+			Name: Ivanna Castalot
+		</p>
+		<p>
 			Age: 27
 		</p>
 		<p>
@@ -68,10 +70,6 @@
 			that this is the only muggle for her. Professionally.
 		</p>
 		<p>
-			Ivanna fluidly navigated through the below illustration, conceptually at least...
-		</p>
-		<img src="../img/sitemap.jpg" />
-		<p>
 			Minute One: Ivanna is blown away by the animated wizard appearance similar to
 			Mickey Mouse from the Mickey Mouse Club. Amazeballs.
 		</p>
@@ -84,6 +82,7 @@
 			pictures in her world. Breathtaking. Ivanna sees the email at the bottom (same as the business
 			card), and clicks it to open a form to email our Code Wizard.
 		</p>
+		<img src="../img/sitemap.jpg" alt="Site Map" class="sitemap" />
 		<h2>Proposed Site Map</h2>
 		<p>
 			One Page, many things on page, such as:
@@ -120,7 +119,7 @@
 			of my mom. How sweet.
 		</p>
 		<p>
-			Obligatory google adsense implemented as tasteless as possible. Willing to negotiate
+			Obligatory google adsense implemented as tastelessly as possible. Willing to negotiate
 			this implementation.
 		</p>
 		<h2>Proposed Features and Functionality</h2>

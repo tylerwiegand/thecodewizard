@@ -1,85 +1,39 @@
-html
+.wizard
 {
-	background-color: rgba(230, 255, 255, .2);
+	float: right;
+	width: 25em;
+	margin: auto;
 }
 
-span.codewizard
+.sitemap
 {
-	color: #433cff;
+	width: 35em;
+	margin: auto;
+}
+
+p
+{
+	padding-right: 15px;
+	padding-top:5px;
+	padding-left: 3px;
+	padding-bottom:10px;
+	text-align: justify;
+	width: 40em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	display: block;
+}
+
+p::first-letter {
+	float: left;
+	width: .8m;
+	line-height: 33%;
+	font-family: cursive;
+	font-size: 200%;
 	font-weight: bold;
 }
 
-h1
-{
-	margin-left: .5em;
-	color: #99CCFF;
-	font-size: 4em;
-	font-variant: small-caps;
-	font-family: monospace;
-	text-shadow: .05em .05em #6B8FB2;
-}
-
-h3
-{
-	margin-left: 1em;
-	color: #99CCFF;
-	font-size: 2em;
-	font-variant: small-caps;
-	font-family: monospace;
-	text-shadow: .05em .05em #6B8FB2;
-}
-
-
-
-ul
-{
-	list-style-position: outside;
-	color: #6699FF;
-	font-size: 1em;
-	font-variant: initial;
-	font-stretch: condensed;
-	max-width: 40em;
-}
-
-/*p
-{
-	text-indent: 1em;
-	margin-left: 1em;
-	color: #6699FF;
-	font-size: 2em;
-	font-variant: initial;
-	font-stretch: condensed;
-	max-width: 35em;
-}
-
-a
-{
-	text-indent: 1em;
-	margin-left: 1em;
-	color: #6699FF;
-	font-size: 2em;
-	font-variant: initial;
-	font-stretch: condensed;
-	max-width: 35em;
-}
-
-a
-{
-	background: #3498db;
-	border-radius: 6px;
-	box-shadow: 2px 3px 8px #666666;
-	background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-	font-family: monospace;
-	color: #ffffff;
-	font-size: 20px;
-	padding: 13px;
-	text-decoration: none;
-}
-*/
-
-img
-{
-	border-left: 15em;
-	max-width: 25%;
-	max-height: 25%;
+ul {
+	text-align: left;
+	width: 56em;
 }
