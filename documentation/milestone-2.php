@@ -90,6 +90,7 @@
 		<ul>
 			<li>THECODEWIZARD.NET title page</li>
 			<li>Articles of success stories</li>
+			<li>Sections of Code Examples</li>
 			<li>Pictures of people working, playing, and casting</li>
 			<li>Contact Info</li>
 			<li>Mom</li>
@@ -101,6 +102,13 @@
 		<p>
 			<strong>Quotes</strong> of success story articles (clicking the article excerpts will fill in the blank
 			spaces on the front and back as a popup that seamlessly blends in with the original text).
+		</p>
+		<p>
+			<strong>Code Examples</strong> added dynamically as separate sections as you scroll down (or to the side).
+			These would include integrations of JS with PHP with a small descriptor underneath as to how it was
+			implemented without giving away TOO much. For instance, if I had a sophisticated usage of the combination
+			of Javascript and CSS, I would point it out (or if you click on it it scrolls to it and points at it).
+			For other more specific things, it would just be the example followed by a description.
 		</p>
 		<p>
 			<strong>Pictures</strong> of people working playing and casting, which is the site's motto. Casting is
