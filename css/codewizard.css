@@ -37,3 +37,15 @@ ul {
 	text-align: left;
 	width: 56em;
 }
+
+img
+{
+	max-width: 800px;
+}
+
+.container
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
