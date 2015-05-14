@@ -12,20 +12,23 @@
 		<title>wizards winsome weblies</title>
 	</head>
 	<body>
-		<h1>Ipsum Start</h1>
-			<p>
-				Ya auta yeste' aa' lasser en lle coia orn n' omenta gurtha amin delotha lle
-				'Ksherea. Elear Asca nai turamin lle lakwenien? Amin caela ie'lle Nwalmaerea
-				maien quel n'quel. Edan rima ten'ta! quel undome tanya awra!. Hodoerea lle
-				ista amin quella no' amin Aierea amin uuma merna ta. Detholalle ron rangwa
-				amin irma haeannon manke naa nae lle llie lye tuulo'?
-			</p>
-			<p>
-				Yala onna lova handasse sana termara en' templa Ianterea. A! mani naa ta
-				N'hrive faina templa. Mani er ama poldora Aierea aa' menle nauva calen ar'
-				ta hwesta e' ale'quenle. Ai' atar Qualohtarie lle wethrine amin Manke?
-				Ndengina ta ho Hallaerea Arwenamin Aaye. Tincya en' russe tuulo' moriloomir
-				Harnram Tel'Domeduathea elea i'dolen.
-			</p>
+		<main class="container">
+			<h1>Ipsum Start</h1>
+			<div class="col-xs-12 col-md-6">
+				<p>
+					Ya auta yeste' aa' lasser en lle coia orn n' omenta gurtha amin delotha lle
+					'Ksherea. Elear Asca nai turamin lle lakwenien? Amin caela ie'lle Nwalmaerea
+					maien quel n'quel. Edan rima ten'ta! quel undome tanya awra!. Hodoerea lle
+					ista amin quella no' amin Aierea amin uuma merna ta. Detholalle ron rangwa
+					amin irma haeannon manke naa nae lle llie lye tuulo'?
+				</p>
+				<p>
+					Yala onna lova handasse sana termara en' templa Ianterea. A! mani naa ta
+					N'hrive faina templa. Mani er ama poldora Aierea aa' menle nauva calen ar'
+					ta hwesta e' ale'quenle. Ai' atar Qualohtarie lle wethrine amin Manke?
+					Ndengina ta ho Hallaerea Arwenamin Aaye. Tincya en' russe tuulo' moriloomir
+					Harnram Tel'Domeduathea elea i'dolen.
+				</p>
+		</main>
 	</body>
 </html>
