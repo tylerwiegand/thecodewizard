@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en">
 	<head>
-		<meta charset="UTF-8">
+		<meta charset="utf-8">
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/superhero/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/codewizard.css">
@@ -12,15 +12,16 @@
 		<title>wizards winsome weblies</title>
 	</head>
 	<body>
-		<main class="container-fluid">
+		<header>
 			<div class="row text-center col-xs-5 col-xs-offset-3 col-md-4 col-md-offset-4"><h1>thecodewizard</h1></div>
+		</header>
+		<main class="container-fluid">
 				<div class="row magicmargin">
 					<img src="img/transparentwizard.png" alt="wizardholder" id="middlewizard" class="img-responsive img-circle img-center" />
 				</div>
-			</div>
 		</main>
 		<section class="container-fluid">
-			<div class="row"><h1 class="col-xs-12 col-md-12 text-nowrap text-left">First Section</h1></div>
+			<div class="row"><h2 class="col-xs-12 col-md-12 text-nowrap text-left">First Section</h2></div>
 			<div class="row">
 				<div class="col-md-4 text-justify">
 					Lova tyelka Gayaerea Waenen ro. Nae saian luume' amin utue ta amin lava ona
@@ -54,7 +55,7 @@
 			</div>
 		</section>
 		<section class="container-fluid section-breaker">
-			<div class="row"><h1 class="col-xs-12 col-md-12 text-nowrap text-right">Second Section</h1></div>
+			<div class="row"><h2 class="col-xs-12 col-md-12 text-nowrap text-right">Second Section</h2></div>
 			<div class="row">
 				<div class="col-md-4 text-justify">
 					<div class="wrapper">
