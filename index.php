@@ -15,7 +15,7 @@
 		<main>
 			<div class="row col-md-10 col-md-offset-1"><h1>This is a placeholder for the eventual awesomeness.</h1></div>
 				<div class="magicmargin col-md-4 col-md-offset-4">
-					<img src="img/transparentwizard.png" alt="wizardholder" class="img-responsive" />
+					<img src="img/transparentwizard.png" alt="wizardholder" class="img-responsive circlewizard" />
 				</div>
 			</div>
 		</main>
