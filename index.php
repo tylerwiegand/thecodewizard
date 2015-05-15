@@ -103,6 +103,83 @@
 					nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
 				</div>
 			</div>
+			<section class="container-fluid">
+				<div class="row"><h2 class="col-xs-12 col-md-12 text-nowrap text-left">First Section</h2></div>
+				<div class="row">
+					<div class="col-md-6 code-block code-fader pre-scrollable">
+						<code>
+						//   1. Clients requests page with file handle to a temp file.
+						//   2. Utility converts the page, save it to the file and reply.
+						//
+						// All these steps work sequentially, so no data should be accessed
+						// simultaneously by several threads.
+						class PdfToEmfUtilityProcessHostClient
+						: public content::UtilityProcessHostClient {
+						public:
+						PdfToEmfUtilityProcessHostClient(
+						base::WeakPtr<PdfToEmfConverterImpl> converter,
+							const PdfRenderSettings& settings);
+
+							void Start(const scoped_refptr<base::RefCountedMemory>& data,
+								const PdfToEmfConverter::StartCallback& start_callback);
+
+								void GetPage(int page_number,
+								const PdfToEmfConverter::GetPageCallback& get_page_callback);
+
+								void Stop();
+
+								// UtilityProcessHostClient implementation.
+								virtual void OnProcessCrashed(int exit_code) override;
+								virtual void OnProcessLaunchFailed() override;
+								virtual bool OnMessageReceived(const IPC::Message& message) override;
+
+								private:
+								class GetPageCallbackData {
+								MOVE_ONLY_TYPE_FOR_CPP_03(GetPageCallbackData, RValue);
+
+								public:
+								GetPageCallbackData(int page_number,
+								PdfToEmfConverter::GetPageCallback callback)
+								: page_number_(page_number), callback_(callback) {}
+
+								// Move constructor for STL.
+								GetPageCallbackData(RValue other) { this->operator=(other); }
+
+								// Move assignment for STL.
+								GetPageCallbackData& operator=(RValue rhs) {
+								page_number_ = rhs.object->page_number_;
+								callback_ = rhs.object->callback_;
+								emf_ = rhs.object->emf_.Pass();
+								return *this;
+								}
+
+								int page_number() const { return page_number_; }
+								const PdfToEmfConverter::GetPageCallback& callback() const {
+								return callback_;
+								}
+								ScopedTempFile emf() { return emf_.Pass(); }
+								void set_emf(ScopedTempFile emf) { emf_ = emf.Pass(); }
+
+								private:
+								int page_number_;
+								PdfToEmfConverter::GetPageCallback callback_;
+								ScopedTempFile emf_;
+								};
+								!
+						</code>
+					</div>
+					<div class="paragraph-breaker hidden-md hidden-lg"></div>
+					<div class="col-md-6 text-justify">
+						Lle ume quel kwentra lye i'narn Lirimaerea heru en amin. Dinaerea entula
+						a' moinayamen' aa' menealle nauva calen ar' malta Gorgaerea. Neuma en'
+						templa quanta yassen 'kshapsa arwen en amin Guinahiroo. Rah'edan uuma
+						dela Aratoamin amin naa lle nai. Quella tuulo' elea rina istorlle sinome
+						khelek hurro' cormamin niuve tenna' ta elea lle au'. Ona ta a'amin nai
+						uuvanimo turamin Yallume amin n'rangwa edanea. Lle merna salk aa' menle
+						nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
+					</div>
+				</div>
+			</section>
 		</section>
 	</body>
 </html>
