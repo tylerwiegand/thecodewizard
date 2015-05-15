@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="UTF-8">
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
@@ -12,18 +12,17 @@
 		<title>wizards winsome weblies</title>
 	</head>
 	<body>
-		<main>
-			<div class="row col-md-10 col-md-offset-1"><h1>This is a placeholder for the eventual awesomeness.</h1></div>
-				<div class="magicmargin col-md-4 col-md-offset-4">
-					<img src="img/transparentwizard.png" alt="wizardholder" class="img-responsive circlewizard" />
+		<main class="container-fluid">
+			<div class="row text-center col-xs-5 col-xs-offset-3 col-md-4 col-md-offset-4"><h1>thecodewizard</h1></div>
+				<div class="row magicmargin">
+					<img src="img/transparentwizard.png" alt="wizardholder" id="middlewizard" class="img-responsive img-circle img-center" />
 				</div>
 			</div>
 		</main>
 		<section class="container-fluid">
-			<div class="row"><h1 class="col-xs-12 col-xs-offset-1 col-md-4 col-md-offset-1">Ipsum Start</h1></div>
+			<div class="row"><h1 class="col-xs-12 col-md-12 text-nowrap text-left">First Section</h1></div>
 			<div class="row">
-			<div class="row"></div>
-				<div class="col-md-4 col-md-offset-1">
+				<div class="col-md-4 text-justify">
 					Lova tyelka Gayaerea Waenen ro. Nae saian luume' amin utue ta amin lava ona
 					ta a'amin. Khelek hurro' yulma ten' lemar en' templa amin sinta lle kwentra
 					lye i'narn. Yala onna khelek hurro' Tincokemen templa pilini'. Cormamin lindua
@@ -32,7 +31,8 @@
 					Llie n'vanima ar' lle atara lanneina lle naa curucuar atost en' entula orme
 					tampa tanya!
 				</div>
-				<div class="col-md-4 col-md-offset-2">
+				<div class="paragraph-breaker hidden-md hidden-lg"></div>
+				<div class="col-md-4 text-justify">
 					Lle ume quel kwentra lye i'narn Lirimaerea heru en amin. Dinaerea entula
 					a' moinayamen' aa' menealle nauva calen ar' malta Gorgaerea. Neuma en'
 					templa quanta yassen 'kshapsa arwen en amin Guinahiroo. Rah'edan uuma
@@ -40,6 +40,53 @@
 					khelek hurro' cormamin niuve tenna' ta elea lle au'. Ona ta a'amin nai
 					uuvanimo turamin Yallume amin n'rangwa edanea. Lle merna salk aa' menle
 					nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
+				</div>
+				<div class="paragraph-breaker hidden-md hidden-lg"></div>
+				<div class="col-md-4 text-justify">
+					Lle ume quel kwentra lye i'narn Lirimaerea heru en amin. Dinaerea entula
+					a' moinayamen' aa' menealle nauva calen ar' malta Gorgaerea. Neuma en'
+					templa quanta yassen 'kshapsa arwen en amin Guinahiroo. Rah'edan uuma
+					dela Aratoamin amin naa lle nai. Quella tuulo' elea rina istorlle sinome
+					khelek hurro' cormamin niuve tenna' ta elea lle au'. Ona ta a'amin nai
+					uuvanimo turamin Yallume amin n'rangwa edanea. Lle merna salk aa' menle
+					nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
+				</div>
+			</div>
+		</section>
+		<section class="container-fluid section-breaker">
+			<div class="row"><h1 class="col-xs-12 col-md-12 text-nowrap text-right">Second Section</h1></div>
+			<div class="row">
+				<div class="col-md-4 text-justify">
+					Lova tyelka Gayaerea Waenen ro. Nae saian luume' amin utue ta amin lava ona
+					ta a'amin. Khelek hurro' yulma ten' lemar en' templa amin sinta lle kwentra
+					lye i'narn. Yala onna khelek hurro' Tincokemen templa pilini'. Cormamin lindua
+					ele lle Aratoamin Sulime Yavannie. Quella tuulo' elea Nandaror Ithil'quessir
+					tula sinome. Yulma ten' lemar en' templa quel du asca melloneamin Tincokemen.
+					Llie n'vanima ar' lle atara lanneina lle naa curucuar atost en' entula orme
+					tampa tanya!
+					<img src="img/work.jpg" alt="people working" class="img-responsive img-rounded" />
+				</div>
+				<div class="paragraph-breaker hidden-md hidden-lg"></div>
+				<div class="col-md-4 text-justify">
+					Lle ume quel kwentra lye i'narn Lirimaerea heru en amin. Dinaerea entula
+					a' moinayamen' aa' menealle nauva calen ar' malta Gorgaerea. Neuma en'
+					templa quanta yassen 'kshapsa arwen en amin Guinahiroo. Rah'edan uuma
+					dela Aratoamin amin naa lle nai. Quella tuulo' elea rina istorlle sinome
+					khelek hurro' cormamin niuve tenna' ta elea lle au'. Ona ta a'amin nai
+					uuvanimo turamin Yallume amin n'rangwa edanea. Lle merna salk aa' menle
+					nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
+					<img src="img/play.jpg" alt="people playing" class="img-responsive img-rounded" />
+				</div>
+				<div class="paragraph-breaker hidden-md hidden-lg"></div>
+				<div class="col-md-4 text-justify">
+					Lle ume quel kwentra lye i'narn Lirimaerea heru en amin. Dinaerea entula
+					a' moinayamen' aa' menealle nauva calen ar' malta Gorgaerea. Neuma en'
+					templa quanta yassen 'kshapsa arwen en amin Guinahiroo. Rah'edan uuma
+					dela Aratoamin amin naa lle nai. Quella tuulo' elea rina istorlle sinome
+					khelek hurro' cormamin niuve tenna' ta elea lle au'. Ona ta a'amin nai
+					uuvanimo turamin Yallume amin n'rangwa edanea. Lle merna salk aa' menle
+					nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
+					<img src="img/cast.jpg" alt="wizard casting FIREBALL" class="img-responsive img-rounded" />
 				</div>
 			</div>
 		</section>

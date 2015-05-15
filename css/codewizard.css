@@ -1,10 +1,26 @@
 .magicmargin
 {
-	margin-top: 15em;
-	margin-bottom: 15em;
+	margin-top: 10em;
+	margin-bottom: 20em;
 }
 
-.circlewizard
+#middlewizard
 {
-	max-width: 5em;
+	background-color: darkblue;
+	max-width: 20%;
+}
+
+.img-center
+{
+	margin: 0 auto;
+}
+
+.section-breaker
+{
+	margin-top: 8em;
+}
+
+.paragraph-breaker
+{
+	margin-top: 4em;
 }
