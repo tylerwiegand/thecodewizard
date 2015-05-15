@@ -12,23 +12,36 @@
 		<title>wizards winsome weblies</title>
 	</head>
 	<body>
-		<main class="container">
-			<h1>Ipsum Start</h1>
-			<div class="col-xs-12 col-md-6">
-				<p>
-					Ya auta yeste' aa' lasser en lle coia orn n' omenta gurtha amin delotha lle
-					'Ksherea. Elear Asca nai turamin lle lakwenien? Amin caela ie'lle Nwalmaerea
-					maien quel n'quel. Edan rima ten'ta! quel undome tanya awra!. Hodoerea lle
-					ista amin quella no' amin Aierea amin uuma merna ta. Detholalle ron rangwa
-					amin irma haeannon manke naa nae lle llie lye tuulo'?
-				</p>
-				<p>
-					Yala onna lova handasse sana termara en' templa Ianterea. A! mani naa ta
-					N'hrive faina templa. Mani er ama poldora Aierea aa' menle nauva calen ar'
-					ta hwesta e' ale'quenle. Ai' atar Qualohtarie lle wethrine amin Manke?
-					Ndengina ta ho Hallaerea Arwenamin Aaye. Tincya en' russe tuulo' moriloomir
-					Harnram Tel'Domeduathea elea i'dolen.
-				</p>
+		<main>
+			<div class="row col-md-10 col-md-offset-1"><h1>This is a placeholder for the eventual awesomeness.</h1></div>
+				<div class="magicmargin col-md-4 col-md-offset-4">
+					<img src="img/transparentwizard.png" alt="wizardholder" class="img-responsive" />
+				</div>
+			</div>
 		</main>
+		<section class="container-fluid">
+			<div class="row"><h1 class="col-xs-12 col-xs-offset-1 col-md-4 col-md-offset-1">Ipsum Start</h1></div>
+			<div class="row">
+			<div class="row"></div>
+				<div class="col-md-4 col-md-offset-1">
+					Lova tyelka Gayaerea Waenen ro. Nae saian luume' amin utue ta amin lava ona
+					ta a'amin. Khelek hurro' yulma ten' lemar en' templa amin sinta lle kwentra
+					lye i'narn. Yala onna khelek hurro' Tincokemen templa pilini'. Cormamin lindua
+					ele lle Aratoamin Sulime Yavannie. Quella tuulo' elea Nandaror Ithil'quessir
+					tula sinome. Yulma ten' lemar en' templa quel du asca melloneamin Tincokemen.
+					Llie n'vanima ar' lle atara lanneina lle naa curucuar atost en' entula orme
+					tampa tanya!
+				</div>
+				<div class="col-md-4 col-md-offset-2">
+					Lle ume quel kwentra lye i'narn Lirimaerea heru en amin. Dinaerea entula
+					a' moinayamen' aa' menealle nauva calen ar' malta Gorgaerea. Neuma en'
+					templa quanta yassen 'kshapsa arwen en amin Guinahiroo. Rah'edan uuma
+					dela Aratoamin amin naa lle nai. Quella tuulo' elea rina istorlle sinome
+					khelek hurro' cormamin niuve tenna' ta elea lle au'. Ona ta a'amin nai
+					uuvanimo turamin Yallume amin n'rangwa edanea. Lle merna salk aa' menle
+					nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
