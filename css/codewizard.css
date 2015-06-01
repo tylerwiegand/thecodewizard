@@ -45,7 +45,19 @@
 	color: ghostwhite;
 }
 
-.code-fader
+.code-faded
 {
 	-webkit-mask-image: -webkit-gradient(linear, left 50%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+	margin-bottom: 2em;
+}
+
+.code-not-faded {
+	-webkit-mask-image: none;
+}
+
+pre
+{
+	color: ghostwhite;
+	background-color: transparent;
+	border: none;
 }
