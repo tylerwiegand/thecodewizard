@@ -1,17 +1,30 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="utf-8">
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.4/superhero/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/codewizard.css">
-<!--	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>										-->
-		<script type="text/javascript" src="js/jquery214.js"></script>
-<!--	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>		-->
-		<script type="text/javascript" src="js/bootstrap.js"></script>
-		<script type="text/javascript" src="http://code.jquery.com/ui/1.11.4/themes/black-tie/jquery-ui.css"></script>
-<!--		<script type="text/javascript" src="js/jquery-ui.min.js"></script>-->
+		<!-- Bootstrap Latest compiled and minified CSS -->
+		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet"/>
+
+		<!-- Bootstrap theme -->
+		<link type="text/css" href="//maxcdn.bootstrapcdn.com/bootswatch/3.3.4/superhero/bootstrap.min.css" rel="stylesheet"/>
+
+		<!--	my own stylings-->
+		<link type="text/css" href="css/codewizard.css" rel="stylesheet"/>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/additional-methods.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+
+		<!-- Latest compiled and minified Bootstrap JavaScript, all compiled plugins included -->
+		<script type="text/javascript" src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+		<!--			Our own javascript/ajax calls-->
 		<script type="text/javascript" src="js/js.js"></script>
+		<script type="text/javascript" src="js/gallery.js"></script>
+
 		<title>wizards winsome weblies</title>
 	</head>
 	<body>
@@ -23,206 +36,68 @@
 					<img src="img/transparentwizard.png" alt="wizardholder" id="middlewizard" class="img-responsive img-circle img-center" />
 				</div>
 		</main>
-		<section class="container-fluid">
-			<div class="row"><h2 class="col-xs-12 col-md-12 text-nowrap text-left">First Section</h2></div>
-			<div class="row">
-				<div class="col-md-4 text-justify">
-					Lova tyelka Gayaerea Waenen ro. Nae saian luume' amin utue ta amin lava ona
-					ta a'amin. Khelek hurro' yulma ten' lemar en' templa amin sinta lle kwentra
-					lye i'narn. Yala onna khelek hurro' Tincokemen templa pilini'. Cormamin lindua
-					ele lle Aratoamin Sulime Yavannie. Quella tuulo' elea Nandaror Ithil'quessir
-					tula sinome. Yulma ten' lemar en' templa quel du asca melloneamin Tincokemen.
-					Llie n'vanima ar' lle atara lanneina lle naa curucuar atost en' entula orme
-					tampa tanya!
-				</div>
-				<div class="paragraph-breaker hidden-md hidden-lg"></div>
-				<div class="col-md-4 text-justify">
-					Lle ume quel kwentra lye i'narn Lirimaerea heru en amin. Dinaerea entula
-					a' moinayamen' aa' menealle nauva calen ar' malta Gorgaerea. Neuma en'
-					templa quanta yassen 'kshapsa arwen en amin Guinahiroo. Rah'edan uuma
-					dela Aratoamin amin naa lle nai. Quella tuulo' elea rina istorlle sinome
-					khelek hurro' cormamin niuve tenna' ta elea lle au'. Ona ta a'amin nai
-					uuvanimo turamin Yallume amin n'rangwa edanea. Lle merna salk aa' menle
-					nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
-				</div>
-				<div class="paragraph-breaker hidden-md hidden-lg"></div>
-				<div class="col-md-4 text-justify">
-					Lle ume quel kwentra lye i'narn Lirimaerea heru en amin. Dinaerea entula
-					a' moinayamen' aa' menealle nauva calen ar' malta Gorgaerea. Neuma en'
-					templa quanta yassen 'kshapsa arwen en amin Guinahiroo. Rah'edan uuma
-					dela Aratoamin amin naa lle nai. Quella tuulo' elea rina istorlle sinome
-					khelek hurro' cormamin niuve tenna' ta elea lle au'. Ona ta a'amin nai
-					uuvanimo turamin Yallume amin n'rangwa edanea. Lle merna salk aa' menle
-					nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
+		<section id="photography">
+			<div class="container section-breaker col-md-offset-1 col-md-8">
+				<h2 class="text-left">
+					Photography
+				</h2>
+				<p class="text-left">
+					I spent around four years in the Seattle, WA area. Here are some of my favorite photos I took during the time. Sony mirrorless cameras! Woo!
+				</p>
+				<div class="row">
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Image 3" href="https://goo.gl/photos/My3U1WJ9WM5aUtvo9"><img class="thumbnail img-responsive" src="img/photography/photo%20-%203.jpg"></a></div>
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Image 9" href="https://goo.gl/photos/My3U1WJ9WM5aUtvo9"><img class="thumbnail img-responsive" src="img/photography/photo%20-%209.jpg"></a></div>
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Image 22" href="https://goo.gl/photos/My3U1WJ9WM5aUtvo9"><img class="thumbnail img-responsive" src="img/photography/photo%20-%2022.jpg"></a></div>
 				</div>
 			</div>
 		</section>
-		<section class="container-fluid section-breaker">
-			<div class="row"><h2 class="col-xs-12 col-md-12 text-nowrap text-right">Second Section</h2></div>
-			<div class="row">
-				<div class="col-md-4 text-justify">
-					<div class="wrapper">
-						<img src="img/work.jpg" alt="people working" class="img-responsive img-thumbnail" />
-						<div class="overlay">
-							<h1>work</h1>
-						</div>
-					</div>					Lova tyelka Gayaerea Waenen ro. Nae saian luume' amin utue ta amin lava ona
-					ta a'amin. Khelek hurro' yulma ten' lemar en' templa amin sinta lle kwentra
-					lye i'narn. Yala onna khelek hurro' Tincokemen templa pilini'. Cormamin lindua
-					ele lle Aratoamin Sulime Yavannie. Quella tuulo' elea Nandaror Ithil'quessir
-					tula sinome. Yulma ten' lemar en' templa quel du asca melloneamin Tincokemen.
-					Llie n'vanima ar' lle atara lanneina lle naa curucuar atost en' entula orme
-					tampa tanya!
-				</div>
-				<div class="paragraph-breaker hidden-md hidden-lg"></div>
-					<div class="col-md-4 text-justify">
-						<div class="wrapper">
-							<img src="img/play.jpg" alt="people playing" class="img-responsive img-thumbnail" />
-							<div class="overlay">
-								<h1>play</h1>
-							</div>
-						</div>
-					Lle ume quel kwentra lye i'narn Lirimaerea heru en amin. Dinaerea entula
-					a' moinayamen' aa' menealle nauva calen ar' malta Gorgaerea. Neuma en'
-					templa quanta yassen 'kshapsa arwen en amin Guinahiroo. Rah'edan uuma
-					dela Aratoamin amin naa lle nai. Quella tuulo' elea rina istorlle sinome
-					khelek hurro' cormamin niuve tenna' ta elea lle au'. Ona ta a'amin nai
-					uuvanimo turamin Yallume amin n'rangwa edanea. Lle merna salk aa' menle
-					nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
-				</div>
-				<div class="paragraph-breaker hidden-md hidden-lg"></div>
-				<div class="col-md-4 text-justify">
-					<div class="wrapper">
-						<img src="img/cast.jpg" alt="wizard casting FIREBALL" class="img-responsive img-thumbnail" />
-						<div class="overlay">
-							<h1>cast</h1>
-						</div>
-					</div>					Lle ume quel kwentra lye i'narn Lirimaerea heru en amin. Dinaerea entula
-					a' moinayamen' aa' menealle nauva calen ar' malta Gorgaerea. Neuma en'
-					templa quanta yassen 'kshapsa arwen en amin Guinahiroo. Rah'edan uuma
-					dela Aratoamin amin naa lle nai. Quella tuulo' elea rina istorlle sinome
-					khelek hurro' cormamin niuve tenna' ta elea lle au'. Ona ta a'amin nai
-					uuvanimo turamin Yallume amin n'rangwa edanea. Lle merna salk aa' menle
-					nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
+		<section id="gaming">
+			<div class="container section-breaker col-md-offset-6 col-md-5">
+				<h2 class="text-right">
+					Gaming
+				</h2>
+				<p class="text-right">This is Heroes of the Storm, the Blizzard MOBA. My first pentakill as Gazlowe!</p>
+				<iframe class="pull-right" width="560" height="315" src="https://www.youtube.com/embed/PoFQFHzPREQ" frameborder="0" allowfullscreen>
+				</iframe>
+			</div>
+		</section>
+		<section id="videography">
+			<div class="container section-breaker col-md-offset-1 col-md-8">
+				<h2 class="text-left">
+					Videography
+				</h2>
+				<p class="text-left">
+				<p class="text-left">This is a video I created from a photo shoot with Sony Vegas.</p>
+				<div class="pull-left">
+					<iframe width="560" height="315" src="https://player.vimeo.com/video/103035213?portrait=0" frameborder="0" allowfullscreen>
+					</iframe>
 				</div>
 			</div>
-			<section class="container-fluid">
-				<div class="row"><h2 class="col-xs-12 col-md-12 text-nowrap text-left">First Section</h2></div>
+		</section>
+		<section id="music">
+			<div class="container section-breaker col-md-8 col-md-offset-3">
+				<h2 class="text-right">
+					Music
+				</h2>
+				<p class="text-right">I've been in a few bands over the years. It's been great!</p>
 				<div class="row">
-					<div class="col-md-6 code-block code-faded pre-scrollable text-nowrap">
-						<pre><code>
-//   1. Clients requests page with file handle to a temp file.
-//   2. Utility converts the page, save it to the file and reply.
-//
-// All these steps work sequentially, so no data should be accessed
-// simultaneously by several threads.
-class PdfToEmfUtilityProcessHostClient
-: public content::UtilityProcessHostClient {
-public:
-PdfToEmfUtilityProcessHostClient(
-base::WeakPtr<PdfToEmfConverterImpl> converter,
-const PdfRenderSettings& settings);
-
-void Start(const scoped_refptr<base::RefCountedMemory>& data,
-const PdfToEmfConverter::StartCallback& start_callback);
-
-void GetPage(int page_number,
-const PdfToEmfConverter::GetPageCallback& get_page_callback);
-
-void Stop();
-
-// UtilityProcessHostClient implementation.
-virtual void OnProcessCrashed(int exit_code) override;
-virtual void OnProcessLaunchFailed() override;
-virtual bool OnMessageReceived(const IPC::Message& message) override;
-
-private:
-class GetPageCallbackData {
-MOVE_ONLY_TYPE_FOR_CPP_03(GetPageCallbackData, RValue);
-
-public:
-GetPageCallbackData(int page_number,
-PdfToEmfConverter::GetPageCallback callback)
-: page_number_(page_number), callback_(callback) {}
-
-// Move constructor for STL.
-GetPageCallbackData(RValue other) { this->operator=(other); }
-
-// Move assignment for STL.
-GetPageCallbackData& operator=(RValue rhs) {
-page_number_ = rhs.object->page_number_;
-callback_ = rhs.object->callback_;
-emf_ = rhs.object->emf_.Pass();
-return *this;
-}
-
-int page_number() const { return page_number_; }
-const PdfToEmfConverter::GetPageCallback& callback() const {
-return callback_;
-}
-ScopedTempFile emf() { return emf_.Pass(); }
-void set_emf(ScopedTempFile emf) { emf_ = emf.Pass(); }
-
-private:
-int page_number_;
-PdfToEmfConverter::GetPageCallback callback_;
-ScopedTempFile emf_;
-};
-!
-						</code></pre>
-					</div>
-					<div class="paragraph-breaker hidden-md hidden-lg"></div>
-					<div class="col-md-6 text-justify">
-						Lle ume quel kwentra lye i'narn Lirimaerea heru en amin. Dinaerea entula
-						a' moinayamen' aa' menealle nauva calen ar' malta Gorgaerea. Neuma en'
-						templa quanta yassen 'kshapsa arwen en amin Guinahiroo. Rah'edan uuma
-						dela Aratoamin amin naa lle nai. Quella tuulo' elea rina istorlle sinome
-						khelek hurro' cormamin niuve tenna' ta elea lle au'. Ona ta a'amin nai
-						uuvanimo turamin Yallume amin n'rangwa edanea. Lle merna salk aa' menle
-						nauva calen ar' ta hwesta e' ale'quenle tanya nae n'quel Lotesse.
-					</div>
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Country Band Pic 1" href="#music"><img class="thumbnail img-responsive" src="img/band/country1.jpg"></a></div>
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Country Band Pic 2" href="#music"><img class="thumbnail img-responsive" src="img/band/country2.jpg"></a></div>
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Country Band Pic 3" href="#music"><img class="thumbnail img-responsive" src="img/band/country3.jpg"></a></div>
 				</div>
-			</section>
+				<div class="row">
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Teenage Rock Band 1" href="#music"><img class="img-rounded img-responsive" src="img/band/dr1.jpg"></a></div>
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Teenage Rock Band 2" href="#music"><img class="img-rounded img-responsive" src="img/band/dr2.jpg"></a></div>
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Teenage Rock Band 3" href="#music"><img class="img-rounded img-responsive" src="img/band/dr3.jpg"></a></div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Oldies Band 1" href="#music"><img class="thumbnail img-responsive" src="img/band/rrb1.jpg"></a></div>
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Oldies Band 2" href="#music"><img class="thumbnail img-responsive" src="img/band/rrb2.jpg"></a></div>
+				</div>
+			</div>
 		</section>
 		<footer>
-<!--			<div class="container-fluid">-->
-				<button type="button" data-placement="top" data-html="true" class="btn btn-default btn-lg col-lg-2" data-container="body" data-toggle="popover" title="" data-original-title="" data-content='
-				<form class="form-horizontal" action="">
-					<legend class="text-center">Tell The Wizard...</legend>
-					<div class="form-group">
-						<label for="email" class="col-lg-2 control-label">From</label>
-						<div class="col-lg-10">
-						  <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="reply" class="col-lg-2 control-label">Reply</label>
-						<div class="col-lg-10">
-							<input type="text" class="form-control" id="reply" name="reply" placeholder="your@email.here (Opt)">
-						</div>
-					</div>
-					<div class="form-group">
-						<div class="col-lg-12">
-							<textarea class="form-control" rows="4" id="textArea" placeholder="Code Wizard, I want..."></textarea>
-						</div>
-					</div>
-					<div class="form-group">
-							<button type="reset" class="btn btn-default col-lg-offset-1 col-lg-5">Reset</button>
-							<button type="submit" class="btn btn-primary col-lg-5">Submit</button>
-					</div>
-				</form>
-				'>
-					<span class="glyphicon glyphicon-envelope" aria-hidden="true">
-					</span>
-				</button>
-				<button type="button" data-placement="top" data-html="true" class="btn btn-default btn-lg col-lg-2"
-							 data-container="body" data-toggle="popover" title="" data-original-title="Mom" data-content='
-								<img src="img/mom.jpg" alt="MOM" class="img-responsive img-thumbnail" />
-							'>
-					<span class="glyphicon glyphicon-user" aria-hidden="true">
-					</span>
-				</button>
-<!--			</div>-->
+
 		</footer>
 	</body>
 </html>
