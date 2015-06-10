@@ -23,7 +23,6 @@
 
 		<!--			Our own javascript/ajax calls-->
 		<script type="text/javascript" src="js/js.js"></script>
-		<script type="text/javascript" src="js/gallery.js"></script>
 
 		<title>wizards winsome weblies</title>
 	</head>
