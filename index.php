@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
+		xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 	<head>
 		<meta charset="utf-8">
 		<!-- Bootstrap Latest compiled and minified CSS -->
@@ -28,15 +29,64 @@
 	</head>
 	<body>
 		<header>
-			<div class="row text-center col-xs-5 col-xs-offset-3 col-md-4 col-md-offset-4"><h1>thecodewizard</h1></div>
+				<h1 id="top" class="text-center">thecodewizard</h1>
+				<h4 class="text-center"><span class="label label-success">(∩ ͡° ͜ʖ ͡°)⊃━☆ﾟ. * ･ ｡ﾟ, </span></h4>
 		</header>
-		<main class="container-fluid">
-				<div class="row magicmargin">
-					<img src="img/transparentwizard.png" alt="wizardholder" id="middlewizard" class="img-responsive img-circle img-center" />
+		<div class="row">
+			<div class="container paragraph-breaker col-lg-4 col-lg-offset-4 col-sm-4 col-sm-offset-4 col-xs-6 col-xs-offset-3">
+				<img src="img/photography/photo%20-%202.jpg" alt="Code Wizard Face" class="img-responsive img-circle img-center" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="container col-lg-4 col-lg-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 text-center">
+				<h4 class="text-center">I’m a <span class="text-info">web</span> developer.</h4>
+
+				<h5>
+					Officially, my job is to use <span class="text-warning">PHP</span>,
+					<span class="text-danger">MySQL</span>, <span class="text-info">Javascript</span>,
+					and a host of other interlocking dependencies and put your content up on the internet
+					for all to see in a manner that is easy to digest and manipulate.
+				</h5>
+				<h5>
+					But really? I <span class="text-danger">love</span> to make peoples dreams into a reality.
+				</h5>
+				<h6>
+				If they're dreaming about a <span class="text-info">website</span>.
+				</h6>
+				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contactmodal">
+					Communicate
+				</button>
+			</div>
+		</div>
+		<div class="section-breaker">
+			<h1 class="text-center">
+				<span class="label label-danger">Code</span>
+			</h1>
+		</div>
+		<section id="cheqout" class="container">
+			<div class="pull-right section-breaker">
+				<div class="col-lg-8 col-lg-offset-4">
+					<h2 class="text-right">
+						Web Development Projects
+					</h2>
+						<p class="text-right">
+							I attended the Deep Dive Coding Bootcamp and came out familiar with PHP, mySQL, HTML5, CSS, and Javascript.
+							This project shows the culmination of those nine weeks of learning and building in my team of three. We utilized Asana,
+							PHPStorm, and Github for the project.
+						</p>
+					<a title="Cheqout" href="//bootcamp-coders.cnm.edu/~twiegand/cheqout/home/">
+						<img class="thumbnail img-responsive" src="img/cheqout.jpg">
+					</a>
 				</div>
-		</main>
-		<section id="photography">
-			<div class="container section-breaker col-md-offset-1 col-md-8">
+			</div>
+		</section>
+		<div class="section-breaker">
+			<h1 class="text-center">
+				<span class="label label-danger">About Me</span>
+			</h1>
+		</div>
+		<section id="photography" class="container">
+			<div class="pull-left paragraph-breaker col-md-8">
 				<h2 class="text-left">
 					Photography
 				</h2>
@@ -44,59 +94,101 @@
 					I spent around four years in the Seattle, WA area. Here are some of my favorite photos I took during the time. Sony mirrorless cameras! Woo!
 				</p>
 				<div class="row">
-					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Image 3" href="https://goo.gl/photos/My3U1WJ9WM5aUtvo9"><img class="thumbnail img-responsive" src="img/photography/photo%20-%203.jpg"></a></div>
-					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Image 9" href="https://goo.gl/photos/My3U1WJ9WM5aUtvo9"><img class="thumbnail img-responsive" src="img/photography/photo%20-%209.jpg"></a></div>
-					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Image 22" href="https://goo.gl/photos/My3U1WJ9WM5aUtvo9"><img class="thumbnail img-responsive" src="img/photography/photo%20-%2022.jpg"></a></div>
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="HDR lookin forest" href="https://goo.gl/photos/My3U1WJ9WM5aUtvo9"><img class="thumbnail img-responsive" src="img/photography/photo%20-%203.jpg"></a></div>
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Seattle at night" href="https://goo.gl/photos/My3U1WJ9WM5aUtvo9"><img class="thumbnail img-responsive" src="img/photography/photo%20-%209.jpg"></a></div>
+					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Leavenworth way after christmas" href="https://goo.gl/photos/My3U1WJ9WM5aUtvo9"><img class="thumbnail img-responsive" src="img/photography/photo%20-%2022.jpg"></a></div>
 				</div>
 			</div>
 		</section>
-		<section id="gaming">
-			<div class="container section-breaker col-md-offset-6 col-md-5">
+		<section id="gaming" class="container">
+			<div class="pull-right col-lg-8 col-md-8 col-sm-10 col-xs-12 section-breaker">
 				<h2 class="text-right">
 					Gaming
 				</h2>
 				<p class="text-right">This is Heroes of the Storm, the Blizzard MOBA. My first pentakill as Gazlowe!</p>
-				<iframe class="pull-right" width="560" height="315" src="https://www.youtube.com/embed/PoFQFHzPREQ" frameborder="0" allowfullscreen>
-				</iframe>
+				<div class="embed-responsive embed-responsive-16by9">
+					<iframe src="https://www.youtube.com/embed/PoFQFHzPREQ" frameborder="0" allowfullscreen></iframe>
+				</div>
 			</div>
 		</section>
-		<section id="videography">
-			<div class="container section-breaker col-md-offset-1 col-md-8">
+		<section id="videography" class="container">
+			<div class="pull-left col-lg-8 col-md-8 col-sm-10 col-xs-12 section-breaker">
 				<h2 class="text-left">
 					Videography
 				</h2>
-				<p class="text-left">
 				<p class="text-left">This is a video I created from a photo shoot with Sony Vegas.</p>
-				<div class="pull-left">
-					<iframe width="560" height="315" src="https://player.vimeo.com/video/103035213?portrait=0" frameborder="0" allowfullscreen>
-					</iframe>
-				</div>
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe src="//player.vimeo.com/video/103035213" frameborder="0" allowfullscreen></iframe>
+					</div>
 			</div>
 		</section>
-		<section id="music">
-			<div class="container section-breaker col-md-8 col-md-offset-3">
+		<section id="music" class="container">
+			<div class="pull-right col-lg-10 col-md-10 col-sm-10 col-xs-12 section-breaker">
 				<h2 class="text-right">
 					Music
 				</h2>
-				<p class="text-right">I've been in a few bands over the years. It's been great!</p>
-				<div class="row">
-					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Country Band Pic 1" href="#music"><img class="thumbnail img-responsive" src="img/band/country1.jpg"></a></div>
-					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Country Band Pic 2" href="#music"><img class="thumbnail img-responsive" src="img/band/country2.jpg"></a></div>
-					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Country Band Pic 3" href="#music"><img class="thumbnail img-responsive" src="img/band/country3.jpg"></a></div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Teenage Rock Band 1" href="#music"><img class="img-rounded img-responsive" src="img/band/dr1.jpg"></a></div>
-					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Teenage Rock Band 2" href="#music"><img class="img-rounded img-responsive" src="img/band/dr2.jpg"></a></div>
-					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Teenage Rock Band 3" href="#music"><img class="img-rounded img-responsive" src="img/band/dr3.jpg"></a></div>
-				</div>
-				<div class="row">
-					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Oldies Band 1" href="#music"><img class="thumbnail img-responsive" src="img/band/rrb1.jpg"></a></div>
-					<div class="col-lg-4 col-sm-12 col-xs-12"><a title="Oldies Band 2" href="#music"><img class="thumbnail img-responsive" src="img/band/rrb2.jpg"></a></div>
+				<p class="text-right">
+					I've been in a few bands over the years. It's been great!
+				</p>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12"><img alt="Country Band Pic 1" class="thumbnail img-responsive img-center" src="img/band/country1.jpg" /></div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12"><img alt="Country Band Pic 2" class="thumbnail img-responsive img-center" src="img/band/country3.jpg" /></div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12"><img alt="Teenage Rock Band 1" class="img-responsive img-center" src="img/band/dr1.jpg" /></div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12"><img alt="Teenage Rock Band 2" class="img-responsive img-center" src="img/band/dr2.jpg" /></div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12"><img alt="Teenage Rock Band 3" class="img-responsive img-center" src="img/band/dr3.jpg" /></div>
+					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12"><img alt="Oldies Band" class="thumbnail img-responsive img-center" src="img/band/rrb2.jpg" /></div>
+			</div>
+		</section>
+		<section>
+			<!-- Modal -- hidden-->
+			<div class="modal fade" id="contactmodal" tabindex="-1" role="dialog" aria-labelledby="contactmodal" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<h4 class="modal-title" id="contactmodal">Contact the Wizard</h4>
+						</div>
+						<div class="modal-body">
+							<form id="contact" class="form-horizontal" role="form" method="POST" action="php/mailme.php">
+								<p id="contactoutput" class="text-center"></p>
+								<div class="form-group">
+									<label for="email" class="col-lg-2 control-label">From</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+									</div>
+								</div>
+								<div class="form-group">
+									<label for="reply" class="col-lg-2 control-label">Reply</label>
+									<div class="col-lg-10">
+										<input type="text" class="form-control" id="reply" name="reply" placeholder="your@email.here (Opt)">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-lg-12">
+										<textarea class="form-control" rows="4" id="message" name="message" placeholder="Code Wizard, I want..."></textarea>
+									</div>
+								</div>
+								<hr>
+								<div class="form-group">
+									<button type="button" class="btn btn-danger pull-left" data-dismiss="modal">Close</button>
+									<button type="reset" class="btn btn-info">Reset</button>
+									<button type="submit" class="btn btn-primary col-md-2 pull-right"><strong>Send</strong></button>
+							</form>
+						</div>
+						<p id="contacterroroutput" class="text-center"></p>
+					</div>
 				</div>
 			</div>
 		</section>
-		<footer>
-
+		<footer class="site-footer site-footer-links text-center">
+			<p>
+				<a href="#top">Top</a>
+				<a href="#cheqout">Cheqout</a>
+				<a href="#photography">Photography</a>
+				<a href="#videography">Videography</a>
+				<a href="#gaming">Gaming</a>
+				<a href="#music">Music</a>
+				<a data-toggle="modal" data-target="#contactmodal">Contact Me</a>
+			</p>
 		</footer>
 	</body>
 </html>
