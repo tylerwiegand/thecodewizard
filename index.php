@@ -1,3 +1,12 @@
+<?php
+require_once "php/csrfver.php";
+if(session_status() !== PHP_SESSION_ACTIVE) {
+	session_start();
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html"
 		xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
@@ -149,7 +158,9 @@
 						</div>
 						<div class="modal-body">
 							<form id="contact" class="form-horizontal" role="form" method="POST" action="php/mailme.php">
+								<?php generateToken(); ?>
 								<p id="contactoutput" class="text-center"></p>
+
 								<div class="form-group">
 									<label for="email" class="col-lg-2 control-label">From</label>
 									<div class="col-lg-10">
